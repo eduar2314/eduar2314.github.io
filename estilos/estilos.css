@@ -47,7 +47,7 @@
     width: 50px;
     height: 50px;
     margin: 5px auto;
-    border: 1px black solid;
+    border: 2px black solid;
 }
 .foto_perfil{
     width: 100%;
@@ -68,9 +68,32 @@
     background-color: #4d4d4d;
 }
 
-.card-profile-conteiner{
-    width: 250px;
-    height: 350px;
-    background-color: aqua;
+/* carta de acceso a perfil */
+.card-profile-container{
+    width: 220px;
+    height: 330px;
     border-radius: 5px;
+    background-color:  #323639;
+}
+.numer-person-container{
+    width: 220px;
+    height: 80px;
+    background-color: #222222;
+    display: grid;
+    grid-template-columns: 4fr 30px;
+}
+.numer-person-container p {
+    color: #fafafa;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin-left: 32px;
+    padding-top: 15px;
+}
+.user-container{
+    width: 220px;
+    height: 120px;
+   }
+.user-container .foto-container {
+    position: relative;
+    top: -30px;
 }
