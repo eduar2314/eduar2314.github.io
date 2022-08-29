@@ -76,6 +76,11 @@
     height: 300px;
     border-radius: 5px;
     background-color:  #323639;
+    position: absolute;
+    right: 1px;  
+}
+.display-not{
+    display: none;
 }
 .numer-person-container{
     width: 220px;
